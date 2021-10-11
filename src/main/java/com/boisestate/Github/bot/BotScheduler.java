@@ -41,6 +41,7 @@ public class BotScheduler {
         String response = restTemplate.getForObject(commentUrl, String.class);
 
 
+
         /**
          * todo next we need to build a class to store the json as an object which we can work on. I have a framework
          * but I dont know if its fully correct since I used an online generator. Check the domain directory for classes
